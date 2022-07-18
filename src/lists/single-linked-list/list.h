@@ -55,16 +55,11 @@ int list_rem_next(List *list, ListElmt *element, void **data);
 
 int list_size(const List *list);
 
-ListElmt *list_head(const List *list);
-
-ListElmt *list_tail(const List *list);
-
-int list_is_head(const ListElmt *element);
-
-int list_is_tail(const ListElmt *element);
-
-void *list_data(const ListElmt *element);
-
-ListElmt *list_next(const ListElmt *element);
+#define list_head(list) ((list)->head)
+#define list_tail(list) ((list)->tail)
+#define list_is_head(list, element) ((element) == (list)->head ? 1 : 0)
+#define list_is_tail(element) ((element)->next == NULL ? 1 : 0)
+#define list_data(element) ((element)->data)
+#define list_next(element) ((element)->next)
 
 #endif
