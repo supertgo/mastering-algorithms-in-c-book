@@ -1,6 +1,8 @@
 {
   "conventionalCommits.scopes": [
     "Lists",
+    "Stack",
+    "Queue",
     "Stack"
   ],
   "files.associations": {
