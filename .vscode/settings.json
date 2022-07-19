@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
-    "Lists"
+    "Lists",
+    "Stack"
   ],
   "files.associations": {
     "stdlib.h": "c",
