@@ -3,7 +3,8 @@
     "Lists",
     "Stack",
     "Queue",
-    "Stack"
+    "Stack",
+    "Hash"
   ],
   "files.associations": {
     "stdlib.h": "c",
