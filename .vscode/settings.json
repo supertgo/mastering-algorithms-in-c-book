@@ -5,7 +5,8 @@
     "Queue",
     "Stack",
     "Hash",
-    "Trees"
+    "Trees",
+    "Heap"
   ],
   "files.associations": {
     "stdlib.h": "c",
