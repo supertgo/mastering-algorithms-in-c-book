@@ -6,10 +6,12 @@
     "Stack",
     "Hash",
     "Trees",
-    "Heap"
+    "Heap",
+    "Graph"
   ],
   "files.associations": {
     "stdlib.h": "c",
-    "dlist.h": "c"
+    "dlist.h": "c",
+    "graph.h": "c"
   }
 }
