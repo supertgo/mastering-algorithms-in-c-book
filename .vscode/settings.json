@@ -7,7 +7,8 @@
     "Hash",
     "Trees",
     "Heap",
-    "Graph"
+    "Graph",
+    "Algorithms"
   ],
   "files.associations": {
     "stdlib.h": "c",
