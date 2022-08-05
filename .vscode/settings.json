@@ -13,6 +13,8 @@
   "files.associations": {
     "stdlib.h": "c",
     "dlist.h": "c",
-    "graph.h": "c"
+    "graph.h": "c",
+    "compress.h": "c",
+    "heap.h": "c"
   }
 }
